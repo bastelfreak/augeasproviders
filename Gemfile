@@ -26,7 +26,7 @@ group :development do
   gem 'rake'
   gem 'rspec-puppet', :git => 'https://github.com/rodjek/rspec-puppet.git', :ref => '544b168'
   gem 'simplecov'
-  gem 'yard'
+  gem 'yard', '>= 0.9.20'
   gem 'redcarpet', '~> 2.0'
   gem 'pry'
   gem 'beaker', :require => false, :git => 'https://github.com/puppetlabs/beaker', :ref => 'dbac20fe9'
