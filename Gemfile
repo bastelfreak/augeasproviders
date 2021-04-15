@@ -5,7 +5,7 @@ if ENV.key?('PUPPET')
 else
   puppetversion = ['>= 2.7']
 end
-gem 'puppet', puppetversion
+gem 'puppet', '>= 6.13.0', puppetversion
 
 if ENV.key?('RUBY_AUGEAS')
   if ENV['RUBY_AUGEAS'] == '0.3.0'
